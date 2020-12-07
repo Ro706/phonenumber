@@ -13,3 +13,5 @@ $ls
 $pip install -r requirements.txt
 $chmod +x *
 $python3 1.py
+
+Made by --Ro706
