@@ -5,12 +5,16 @@ import os
 from phonenumbers import geocoder
 import time
 from phonenumbers import carrier
+from tqdm import tqdm
 
 os.system('clear')
 os.system('figlet phone number')
 print(colored('================================','cyan'))
 # Parsing String to Phone number
 a=str(input(colored('enter number: ','green')))
+for i in tqdm(range(100)):
+    time.sleep(1)
+
 print(colored('''=======================
 [      TIME ZONE      ]
 ======================= ''','green'))
