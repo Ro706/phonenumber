@@ -1,3 +1,4 @@
 phonenumbers
 wikipedia
 termcolor
+tqdm
