@@ -13,7 +13,7 @@ print(colored('================================','cyan'))
 # Parsing String to Phone number
 a=str(input(colored('enter number: ','green')))
 for i in tqdm(range(100)):
-    time.sleep(1)
+    time.sleep(0.01)
 
 print(colored('''=======================
 [      TIME ZONE      ]
