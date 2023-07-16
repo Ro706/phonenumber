@@ -1,6 +1,7 @@
 # phonenumber <br>
 
 $apt update && upgrade<br>
+$apt install lolact<br>
 $git clone https://github.com/Ro706/phonenumber.git<br>
 $cd phonenumber<br>
 $ls<br>
