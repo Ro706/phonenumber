@@ -8,13 +8,14 @@ import time
 from phonenumbers import carrier
 from tqdm import tqdm
 from pyfiglet import Figlet
-f = Figlet(font="slant")
-print(colored(f.renderText("Phone_info"),"green")) 
 ops = platform.system()
 if ops == 'Linux':
     os.system("clear")
 else:
     os.system("cls")
+
+f = Figlet(font="slant")
+print(colored(f.renderText("Phone_info"),"green")) 
 print(colored('================================','cyan'))
 # Parsing String to Phone number
 a=str(input(colored('enter number: ','green')))
